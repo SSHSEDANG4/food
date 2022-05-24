@@ -49,7 +49,7 @@ function change(){
         }else{
         echo "\n".color("red","-] Message: ".$message);
         gocar:
-        echo "\n".color("yellow","!] Claim voc GOFOOD 15+10+5");
+        echo "\n".color("yellow","!] Claim voc GOCAR 15K");
         echo "\n".color("yellow","!] Please wait");
         for($a=1;$a<=3;$a++){
         echo color("yellow",".");
