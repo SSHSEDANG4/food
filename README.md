@@ -1,4 +1,4 @@
-# food
+# food 
 
 script regis + auto claim voucher :
 
@@ -17,5 +17,5 @@ script regis + auto claim voucher :
 
 - php kamu.php
 
-## 2022
+
 
