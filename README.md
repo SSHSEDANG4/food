@@ -17,5 +17,11 @@ script regis + auto claim voucher :
 
 - php kamu.php
 
+# file
+
+- https://transfer.sh/IIQtTU/Gojek4.32.1%28NPS%29.apk
+
+
+
 
 
