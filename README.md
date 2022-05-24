@@ -15,4 +15,4 @@ script regis + auto claim voucher :
 
 - cd food
 
-- php run.php
+- php kamu.php
