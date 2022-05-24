@@ -26,6 +26,10 @@ script regis + auto claim voucher :
 
 - https://youtu.be/EnAfhpXkXEU
 
+# for linux add this
+
+- apt-get install php-curl
+
 
 
 
