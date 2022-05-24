@@ -3,6 +3,7 @@ date_default_timezone_set('Asia/Jakarta');
 include "function.php";
 echo color("green","# # # # # # # # # # # # # # # # # # # # # # # \n");
 echo color("yellow","[•]       Wellcome Para Cendikiawan        [•]\n");
+echo color("yellow","[•]          Edited By SSN Food            [•]\n");
 echo color("yellow","[•]    Time  : ".date('[d-m-Y] [H:i:s]')."     [•]\n");
 echo color("yellow","[•]           Waiting process.....         [•] \n");
 echo color("yellow","[•] Cara menulis nomor pakai 62xxxxxxxxxx  [•]\n");
