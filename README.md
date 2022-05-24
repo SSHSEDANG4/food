@@ -13,6 +13,6 @@ script regis + auto claim voucher :
 
 - git clone https://github.com/SSHSEDANG4/food.git
 
-- cd 90j3k
+- cd food
 
 - php run.php
