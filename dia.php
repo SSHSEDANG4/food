@@ -31,7 +31,7 @@ echo color("yellow","▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬�
 function change(){
         $nama = nama();
         $email = str_replace(" ", "", $nama) . mt_rand(100, 999);
-        /* ULANG */
+        ulang:
         echo color("nevy","(•) Nomor : ");
         $no = trim(fgets(STDIN));
         $data = '{"email":"'.$email.'@gmail.com","name":"'.$nama.'","phone":"+'.$no.'","signed_up_country":"ID"}';
