@@ -50,6 +50,7 @@ function change(){
         $uuid = getStr('"resource_owner_id":',',',$verif);
         echo "\n".color("yellow","+] Your access token : ".$token."\n\n");
         save("token.txt",$token);
+       echo color("red","=======================================");
         echo "\n".color("nevy","?] Mau Redeem Voucher?: y/n ");
         $pilihan = trim(fgets(STDIN));
         if($pilihan == "y" || $pilihan == "Y"){
