@@ -22,12 +22,12 @@ echo "\e[97m:::::::::\e[92mckXMMMMMMMx\e[97m::::\e[92mxMMMMMMMXkc\e[97m:::::::::
 echo "\e[97m::::::::::::\e[92mlxOKX0d\e[97m::::::\e[92md0XKOxl\e[97m::::::::::::\n";
 echo "\e[97m::::::::::::::::::::::::::::::::::::::::::::\n";
 echo color("yellow","# # # # # # # # # # # # # # # # # # # # # # # \n"); 
-echo color("red","[•]       Wellcome Para Cendikiawan        [•]\n");
-echo color("red","[•]          Edited By SSN Food            [•]\n");
+echo color("red","[•]       Wellcome Para Cendikiawan       [•]\n");
+echo color("red","[•]          Edited By SSN Food           [•]\n");
 echo color("yellow","# # # # # # # # # # # # # # # # # # # # # # # \n"); 
-echo color("white","[•]    Time  : ".date('[d-m-Y] [H:i:s]')."     [•]\n");
-echo color("white","[•]          Waiting process.....          [•] \n");
-echo color("white","[•] Cara menulis nomor pakai 62xxxxxxxxxx  [•]\n"); 
+echo color("white","[•]    Time  : ".date('[d-m-Y] [H:i:s]')."    [•]\n");
+echo color("white","[•]          Waiting process.....         [•] \n");
+echo color("white","[•] Cara menulis nomor pakai 62xxxxxxxxxx [•]\n"); 
 echo color("yellow","# # # # # # # # # # # # # # # # # # # # # # # \n");
 function change(){
         $nama = nama();
