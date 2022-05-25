@@ -1,14 +1,14 @@
 <?php
 date_default_timezone_set('Asia/Jakarta');
 include "function.php";
-echo color("red","# # # # # # # # # # # # # # # # # # # # # # # \n"); 
-echo color("yellow","[•]       Wellcome Para Cendikiawan        [•]\n");
-echo color("yellow","[•]          Edited By SSN Food            [•]\n");
-echo color("red","# # # # # # # # # # # # # # # # # # # # # # # \n"); 
-echo color("yellow","[•]    Time  : ".date('[d-m-Y] [H:i:s]')."     [•]\n");
-echo color("yellow","[•]          Waiting process.....          [•] \n");
-echo color("yellow","[•] Cara menulis nomor pakai 62xxxxxxxxxx  [•]\n"); 
-echo color("red","# # # # # # # # # # # # # # # # # # # # # # # \n");
+echo color("yellow","# # # # # # # # # # # # # # # # # # # # # # # \n"); 
+echo color("red","[•]       Wellcome Para Cendikiawan        [•]\n");
+echo color("red","[•]          Edited By SSN Food            [•]\n");
+echo color("yellow","# # # # # # # # # # # # # # # # # # # # # # # \n"); 
+echo color("white","[•]    Time  : ".date('[d-m-Y] [H:i:s]')."     [•]\n");
+echo color("white","[•]          Waiting process.....          [•] \n");
+echo color("white","[•] Cara menulis nomor pakai 62xxxxxxxxxx  [•]\n"); 
+echo color("yellow","# # # # # # # # # # # # # # # # # # # # # # # \n");
 function change(){
         $nama = nama();
         $email = str_replace(" ", "", $nama) . mt_rand(100, 999);
