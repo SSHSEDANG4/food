@@ -39,7 +39,7 @@ function change(){
         if(strpos($register, '"otp_token"')){
         $otptoken = getStr('"otp_token":"','"',$register);
         echo color("green","+] Kode verifikasi sudah di kirim")."\n";
-        /* OTP */
+        otp:
         echo color("nevy","?] Otp: ");
         $otp = trim(fgets(STDIN));
         $data1 = '{"client_name":"gojek:cons:android","data":{"otp":"' . $otp . '","otp_token":"' . $otptoken . '"},"client_secret":"83415d06-ec4e-11e6-a41b-6c40088ab51e"}';
@@ -82,7 +82,7 @@ function change(){
         goto gofood;
         }else{
         echo "\n".color("red","-] Message: ".$message);
-        /* REFF */
+        reff:
         $data = '{"referral_code":"G-75SR565"}';    
         $claim = request("/customer_referrals/v1/campaign/enrolment", $token, $data);
         $message = fetch_value($claim,'"message":"','"');
@@ -92,7 +92,7 @@ function change(){
         }else{
         echo "\n".color("red","-] Message: ".$message);
         }
-        /* GOFOOD */
+        gofood:
         echo "\n".color("yellow","!] Claim voc GOSEND pot 5K");
         echo "\n".color("yellow","!] Please wait");
         for($a=1;$a<=3;$a++){
@@ -126,7 +126,7 @@ function change(){
         $expired4 = getStr1('"expiry_date":"','"',$cekvoucher,'4');
         $expired5 = getStr1('"expiry_date":"','"',$cekvoucher,'5');
         $expired6 = getStr1('"expiry_date":"','"',$cekvoucher,'6');
-         /* SETPIN */
+         setpin:
          echo "\n".color("nevy","?] Mau set pin?: y/n ");
          $pilih1 = trim(fgets(STDIN));
          if($pilih1 == "y" || $pilih1 == "Y"){
